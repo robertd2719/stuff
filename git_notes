@@ -1,0 +1,4 @@
+git status // status of our commits
+git init // start a repository
+git add <name> // add a single file
+git add . // add all files with changes
