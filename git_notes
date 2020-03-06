@@ -36,3 +36,8 @@ merging branches
 ----------------------
 1. git branch master //move to the master branch
 2. git merge <branchname>
+
+deleting a branch
+------------------------
+1. git checkout master
+2. git branch -D <branchname>
