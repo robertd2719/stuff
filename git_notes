@@ -2,3 +2,12 @@ git status // status of our commits
 git init // start a repository
 git add <name> // add a single file
 git add . // add all files with changes
+git commit -m " //<insert descriptive message string here!!!"
+git log // this gives us a log of all our commits
+git log --online // this will give a shortened version of the log with smaller lines
+
+
+reverting
+----------
+git checkout <id number from log> will take us to an earlier 'read' only 
+git checkout main // will return us to the current state of the project
