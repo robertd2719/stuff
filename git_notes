@@ -59,3 +59,9 @@ git push -f <origin || address> <branchname>
 -------------------------------------
 useless test text follows here......
 -------------------------------------
+
+-------------------------------------
+removing files from the git repository but not deleting them
+-------------------------------------
+
+git rm -rf --cached <filename(s)>
