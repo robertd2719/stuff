@@ -49,5 +49,7 @@ pull and push
 https://github.com/robertd2719/stuff.git for this particular case
 
 you can also edit this and then pull it back down....
-and some more testing
-even more testin
+when everything goes pear-shaped you can use the -f indicator to push and revert changes if you do something stupid like
+delete a file from the master branch
+git revert --hard <commitname>
+git push -f <origin || address> <branchname>
