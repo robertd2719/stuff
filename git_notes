@@ -29,3 +29,10 @@ working with branches
 git branch -a // will give us a list of all the branches
 git branch <branchName> // will create a new branch..
 git checkout <branchname> // will move us to the new branch
+
+git checkout -b feature-a //creates the branch and puts us on the branch
+
+merging branches
+----------------------
+1. git branch master //move to the master branch
+2. git merge <branchname>
