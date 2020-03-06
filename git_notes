@@ -41,3 +41,9 @@ deleting a branch
 ------------------------
 1. git checkout master
 2. git branch -D <branchname>
+
+pull and push
+-----------------------
+1. make sure to commit all changes first
+2. git push/pull address and what branch you are working on <master>
+https://github.com/robertd2719/stuff.git for this particular case
