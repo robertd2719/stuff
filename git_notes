@@ -22,3 +22,10 @@ git reset <id> // will clean out the repository to a specified commit but the ch
 	will not be reflected in the current working files...you could use this to just add everything to one big commit
 
 git reset <id> --hard //will clean the repository and clear out the local working files to 	reflect the commit the reset was pointed at ...nuclear option ...use with caution.
+.........
+
+working with branches
+----------------------
+git branch -a // will give us a list of all the branches
+git branch <branchName> // will create a new branch..
+git checkout <branchname> // will move us to the new branch
