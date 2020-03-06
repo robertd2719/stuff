@@ -11,3 +11,14 @@ reverting
 ----------
 git checkout <id number from log> will take us to an earlier 'read' only 
 git checkout main // will return us to the current state of the project
+
+git revert <id> // will revert a certain <id> within the chain with the most recent file
+	being one that is a repository with the specified repository taken out
+	however, the repository commit is still there we only see what the project
+	looks like without that particular commit
+
+
+git reset <id> // will clean out the repository to a specified commit but the changes
+	will not be reflected in the current working files...you could use this to just add everything to one big commit
+
+git reset <id> --hard //will clean the repository and clear out the local working files to 	reflect the commit the reset was pointed at ...nuclear option ...use with caution.
